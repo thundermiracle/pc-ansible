@@ -1,0 +1,5 @@
+- hosts: localhost
+  become: true
+  # import_playbook: playbooks/codewhisperer.yml
+  tasks:
+    - include: playbooks/codewhisperer.yml

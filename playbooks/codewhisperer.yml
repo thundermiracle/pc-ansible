@@ -1,0 +1,12 @@
+- name: Install CodeWhisperer Command Line
+  # hosts: localhost
+  # become: true
+  vars:
+    app_name: CodeWhisperer
+    app_url: https://desktop-release.codewhisperer.us-east-1.amazonaws.com/latest/CodeWhisperer.dmg
+    install_type: app
+    install_method: dmg
+    download_file_type: dmg
+  tags:
+    - install
+    - productivity
